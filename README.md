@@ -13,11 +13,13 @@ pacman-S mingw-w64-ucrt-x86_64-SDL2 \
         mingw-w64-ucrt-x86_64-SDL2_mixer
 
 # runfile at terminal level-2 folder to compile
-mkdir build /n
-cd build /n
+mkdir build \
+cd build \
 cmake ..
 
 # at build terminal run
 cmake --build .
-./game.exe //to run in interactive mode
-./game.exe //to run in gui (graphic mode)
+to run in interactive mode:
+./game.exe 
+to run in gui (graphic mode):
+./game.exe -g
