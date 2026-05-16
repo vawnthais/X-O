@@ -13,8 +13,8 @@ pacman-S mingw-w64-ucrt-x86_64-SDL2 \
         mingw-w64-ucrt-x86_64-SDL2_mixer
 
 # runfile at terminal level-2 folder to compile
-mkdir build
-cd build
+mkdir build /n
+cd build /n
 cmake ..
 
 # at build terminal run
