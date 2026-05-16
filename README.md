@@ -1,6 +1,6 @@
 # X-O
 
-#use termminal UCRT64 /
+#use termminal UCRT64 \
 pacman -Syu
 # setup build tool
 pacman-S mingw-w64-ucrt-x86_64-make \
