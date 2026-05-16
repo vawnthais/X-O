@@ -18,8 +18,8 @@ cd build \
 cmake ..
 
 # at build terminal run
-cmake --build .
-to run in interactive mode:
-./game.exe 
-to run in gui (graphic mode):
+cmake --build . \
+to run in interactive mode: \
+./game.exe \
+to run in gui (graphic mode): \
 ./game.exe -g
